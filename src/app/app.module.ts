@@ -10,6 +10,9 @@ import { FeaturedComponent } from './featured/featured.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { HometeamsComponent } from './hometeams/hometeams.component';
+import { PagestoreComponent } from './pagestore/pagestore.component';
+import { PageservicesComponent } from './pageservices/pageservices.component';
+import { PagecontactComponent } from './pagecontact/pagecontact.component';
 
 const appRoutes: Routes = [
   { path: '', component: AppComponent },
@@ -24,7 +27,10 @@ const appRoutes: Routes = [
     FeaturedComponent,
     FooterComponent,
     AboutComponent,
-    HometeamsComponent
+    HometeamsComponent,
+    PagestoreComponent,
+    PageservicesComponent,
+    PagecontactComponent
   ],
   imports: [
     BrowserModule,
