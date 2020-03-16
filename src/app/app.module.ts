@@ -14,6 +14,7 @@ import { PagestoreComponent } from './pagestore/pagestore.component';
 import { PageservicesComponent } from './pageservices/pageservices.component';
 import { PagecontactComponent } from './pagecontact/pagecontact.component';
 import { FaqComponent } from './faq/faq.component';
+import { SigninComponent } from './signin/signin.component';
 
 const appRoutes: Routes = [
   { path: '', component: AppComponent },
@@ -33,6 +34,7 @@ const appRoutes: Routes = [
     PageservicesComponent,
     PagecontactComponent,
     FaqComponent,
+    SigninComponent,
   ],
   imports: [
     BrowserModule,
