@@ -15,10 +15,21 @@ import { PageservicesComponent } from './pageservices/pageservices.component';
 import { PagecontactComponent } from './pagecontact/pagecontact.component';
 import { FaqComponent } from './faq/faq.component';
 import { SigninComponent } from './signin/signin.component';
+import { PageemployeeportalComponent } from './pageemployeeportal/pageemployeeportal.component';
+import { PagecusloginComponent } from './pagecuslogin/pagecuslogin.component';
+import { PageemploginComponent } from './pageemplogin/pageemplogin.component';
+import { PagecustregisterComponent } from './pagecustregister/pagecustregister.component';
+import { PageaddproductsComponent } from './pageaddproducts/pageaddproducts.component';
+import { PagecustsettingsComponent } from './pagecustsettings/pagecustsettings.component';
 
 const appRoutes: Routes = [
-  { path: '', component: AppComponent },
+  { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'store', component: PagestoreComponent },
+  { path: 'services', component: PageservicesComponent },
+  { path: 'contact', component: PagecontactComponent },
+  { path: 'portal', component: PageemployeeportalComponent },
+  { path: 'faq', component: FaqComponent },
 ];
 
 @NgModule({
@@ -35,6 +46,12 @@ const appRoutes: Routes = [
     PagecontactComponent,
     FaqComponent,
     SigninComponent,
+    PageemployeeportalComponent,
+    PagecusloginComponent,
+    PageemploginComponent,
+    PagecustregisterComponent,
+    PageaddproductsComponent,
+    PagecustsettingsComponent,
   ],
   imports: [
     BrowserModule,
