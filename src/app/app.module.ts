@@ -13,6 +13,7 @@ import { HometeamsComponent } from './hometeams/hometeams.component';
 import { PagestoreComponent } from './pagestore/pagestore.component';
 import { PageservicesComponent } from './pageservices/pageservices.component';
 import { PagecontactComponent } from './pagecontact/pagecontact.component';
+import { FaqComponent } from './faq/faq.component';
 
 const appRoutes: Routes = [
   { path: '', component: AppComponent },
@@ -30,7 +31,8 @@ const appRoutes: Routes = [
     HometeamsComponent,
     PagestoreComponent,
     PageservicesComponent,
-    PagecontactComponent
+    PagecontactComponent,
+    FaqComponent,
   ],
   imports: [
     BrowserModule,
