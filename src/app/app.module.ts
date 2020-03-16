@@ -30,6 +30,9 @@ const appRoutes: Routes = [
   { path: 'contact', component: PagecontactComponent },
   { path: 'portal', component: PageemployeeportalComponent },
   { path: 'faq', component: FaqComponent },
+  { path: 'employee-settings', component: PagecustsettingsComponent },
+  { path: 'login', component: PagecusloginComponent },
+  { path: 'employee-portal', component: PageemployeeportalComponent },
 ];
 
 @NgModule({
